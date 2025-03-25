@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const debounce = require('lodash.debounce');
-const Epoll = require('epoll').Epoll;
+const Epoll = require('@julusian/epoll').Epoll;
 
 const GPIO_ROOT_PATH = '/sys/class/gpio/';
 
